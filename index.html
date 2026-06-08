@@ -4,6 +4,59 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>IMPERIA</title>
+
+<style>
+body{
+background:
+linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)),
+url("imperia-bg.png");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+color:white;
+font-family:Arial,sans-serif;
+margin:0;
+text-align:center;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:40px;
+}
+
+.container{
+max-width:800px;
+padding:40px;
+background:rgba(0,0,0,0.55);
+backdrop-filter:blur(6px);
+border-radius:20px;
+}
+
+h1{
+font-size:80px;
+margin-bottom:20px;
+letter-spacing:4px;
+}
+
+p{
+font-size:24px;
+line-height:1.8;
+color:#e0e0e0;
+}
+
+button{
+margin-top:30px;
+padding:16px 36px;
+font-size:20px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-weight:bold;
+}
+
 .code{
 background:#0f0f12;
 color:white;
@@ -24,58 +77,12 @@ font-size:22px;
 line-height:1.8;
 color:#dddddd;
 }
-<style>
-body{
-background:
-linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)),
-url("imperia-bg.png");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-color:white;
-font-family:Arial,sans-serif;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-margin:0;
-text-align:center;
-}
-
-.container{
-max-width:800px;
-padding:40px;
-background:rgba(0,0,0,0.55);
-backdrop-filter:blur(6px);
-border-radius:20px;
-}
-
-h1{
-font-size:80px;
-margin-bottom:20px;
-letter-spacing:4px;
-}
-
-p{
-font-size:24px;
-line-height:1.6;
-color:#cccccc;
-}
-
-button{
-margin-top:30px;
-padding:15px 30px;
-font-size:18px;
-border:none;
-border-radius:8px;
-cursor:pointer;
-}
 </style>
-
 </head>
 
 <body>
 
+<section class="hero">
 <div class="container">
 
 <h1>IMPERIA</h1>
@@ -83,18 +90,14 @@ cursor:pointer;
 <p>
 The Empire of Discipline, Wisdom and Quiet Strength.
 <br><br>
-
 Meet Empress Aurora.
 <br><br>
-
 A ruler guided by morality, kindness and unwavering serenity.
 <br><br>
-
 Enter an interactive world where character is forged,
 discipline becomes freedom,
 and calmness becomes power.
 <br><br>
-
 Become one of the founding citizens of IMPERIA and gain early access before the gates open.
 </p>
 
@@ -103,6 +106,8 @@ Become one of the founding citizens of IMPERIA and gain early access before the 
 </a>
 
 </div>
+</section>
+
 <section class="code">
 <h2>The Code of Aurora</h2>
 
@@ -116,5 +121,6 @@ Become one of the founding citizens of IMPERIA and gain early access before the 
 <li>Every day is a new beginning.</li>
 </ol>
 </section>
+
 </body>
 </html>
